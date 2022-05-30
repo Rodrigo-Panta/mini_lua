@@ -1,0 +1,7 @@
+print("basic print and assign")
+print();
+x=2
+print(x)
+print(true)
+print(nil)
+print(false)

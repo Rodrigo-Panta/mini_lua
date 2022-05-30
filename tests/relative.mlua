@@ -1,0 +1,24 @@
+a=5
+b = "10"
+c = {a,b}
+d = {a, 23.5}
+print(a>2)
+print(b==10)
+print(b=="10")
+print(b>=2)
+print(a>=2)
+print(a>=5)
+print(a<2)
+print(a<=2)
+print(a~=2.5)
+print(true==false)
+print(false==nil)
+print(true==true)
+print(c==d)
+print(c==c)
+
+
+
+
+
+

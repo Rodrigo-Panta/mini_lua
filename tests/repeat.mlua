@@ -1,0 +1,12 @@
+repeat 
+a = read("enter something: ")
+print("Your something: "..a)
+until a == ""
+
+a = nil
+repeat 
+print(a)
+a = 2
+until a~=nil
+
+repeat print(a) until a==nil

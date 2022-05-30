@@ -1,0 +1,32 @@
+a = {}
+b = {[2]="25", [3]=2}
+print(b[3])
+c = {"string aqui",2,7}
+print(c[1])
+d = {
+	["string"]=1.23,
+	[a]=b[3],
+	[1.87]=nil,
+	2, 4, 6, 8	
+}
+
+print(d["string"])
+print(d[a])
+print(d[1.87])
+print(d[1])
+print(d[3])
+print(d["string"])
+print(d.string)
+print(d.naoexiste)
+-- print(d.1)
+
+print(d[25])
+print(d)
+d[25] = 3
+print (d)
+
+a["add"] = 5
+a[nil] = 2
+x="add"
+print(a[x])
+print(a[nil])

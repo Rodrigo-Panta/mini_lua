@@ -1,0 +1,24 @@
+print("Testing unary expressions:")
+a = 10
+b = "String"
+c = true
+d = false
+e = nil
+print(a)
+print(-a)
+print(not a)
+--print(#a)
+print(b)
+--print(-b)
+print(not b)
+print(#b)
+print(c)
+--print(-c)
+--print(#c)
+print(not c)
+print(e)
+--print(-e)
+print(not e)
+--print(#e)
+
+

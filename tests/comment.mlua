@@ -1,0 +1,7 @@
+--print("This won't be printed")
+
+print("this will")
+--[[ 
+print("This won't either, and it even has a syntatic error')
+--]]
+print("Again, this will")

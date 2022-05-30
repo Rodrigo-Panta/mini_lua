@@ -1,0 +1,12 @@
+-- Testing assign multiple
+a = 12
+b = "Oi mundo";
+c, d = true, 25
+e, f, g = true, 0;
+h, i = a, 25, c
+print(a)
+print(b)
+print(c) --The rest is to be printed when testing concat
+print(-d)
+print(not d)
+print(#b)

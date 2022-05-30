@@ -1,0 +1,29 @@
+if 1 == 2 then
+    print("This isn't right")
+elseif 2 == 2 then
+    print("That's more like it")
+end
+
+if nil then
+    print(nil)
+else 
+    print(true)
+end
+
+for a=1,10 do 
+    if a<5 then
+        print(a.." é menor que 5")
+    elseif a==5 then
+        print(a.." é igual a 5")
+    elseif a<7 then
+        print(a.." é menor que 7")
+    else
+        print(a.." é maior igual a 7")
+    end
+end
+
+if nil then
+    print(nil)
+else
+    print("not nil")
+end
